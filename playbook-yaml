@@ -1,0 +1,8 @@
+- name: "manage worker1 nad 2"
+  hosts: all
+  become: true
+  tasks:
+  - name: "ensure jean user exits"
+    user:
+     name: jean
+     state: present
