@@ -5,7 +5,7 @@
   - name: "ensure jean user exits"
     user:
      name: jean
-     state: present
+     state: absent
   - name: "ensure leo user exits"
     user:
      name: leo
