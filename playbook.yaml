@@ -6,3 +6,7 @@
     user:
      name: jean
      state: present
+  - name: "ensure leo user exits"
+    user:
+     name: leo
+     state: present
