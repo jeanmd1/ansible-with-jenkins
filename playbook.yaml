@@ -6,7 +6,4 @@
     user:
      name: jean
      state: absent
-  - name: "ensure leo user exits"
-    user:
-     name: leo
-     state: present
+  
