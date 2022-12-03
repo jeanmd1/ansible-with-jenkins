@@ -5,5 +5,5 @@
   - name: "ensure ingrid user exits"
     user:
      name: ingrid
-     state: absent
+     state: present
   
