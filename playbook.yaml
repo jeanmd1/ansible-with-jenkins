@@ -2,8 +2,8 @@
   hosts: all
   become: true
   tasks:
-  - name: "ensure jean user exits"
+  - name: "ensure ingrid user exits"
     user:
-     name: jean
+     name: ingrid
      state: absent
   
